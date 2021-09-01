@@ -1,0 +1,174 @@
+<!--Part 1-->
+
+<h2>Part 1</h2>
+
+<head>
+<title>Ibraheem Saied's Page </title>
+</head>
+<body>
+  HELLO THIS IBRAHEEM SAIED
+</body>
+
+<body>
+  This ibraheem again
+</body>
+
+
+
+ <!--Part 2-->
+ <h2>Part 2</h2>
+ <body>
+ <h1>Welcome to my Page</h1>
+ <p>Here is some text</p>
+ <p>Even more text</p>
+ <p>Today is good day. The sun is out and it seems to have good whether. I don't see much cars around which means that there is less traffic for everyone else who is driving. The stores are selling good food. Food that you should try </p>
+</body>
+ 
+ <!--Part 3-->
+ <body>
+ <h2>Part 3</h2>
+ <ol>
+    <li>Hello</li>
+    <li>This my <em>lists</em> sheet</li>
+ </ol>
+ 
+ <ul>
+     <li>And Thats it</li>
+     <ol>
+     <li>I have many other sheets</li>
+     <ul>
+         <ol>But <strong>yea</strong></ol>
+     </ul>
+     </ol>
+ 
+ </ul>
+</body>
+
+ <!--Part 4-->
+ <h2>Part 4</h2>
+ <body>
+    <div class = "">
+    
+        <h1>Computer</h1>
+        <p>Science</p>
+    
+    </div>
+    
+    <div class = "">
+        <h1>English</h1>
+        <p>Class</p>
+    <h1>Science</h1>
+    </div>
+    
+    <p>My name is <span>Ibraheem</span></p>
+    
+    </body>
+
+    <!--Part 5-->
+    <h2>Part 5<h2>
+
+    <h1>BASIC HTML</h1>
+
+ <img src="house1.jpg" alt = "Nice House" width="500" height="333">
+
+ <!--Part 6-->
+ <h2>Part 6</h2>
+ 
+<a href="https://www.google.com/?safe=active&ssui=on">Press the link</a>
+
+<!--Part 7-->
+<h2>Part 7</h2>
+
+<h1>Please Sign Here</h1>
+<h2>Please Input Your Email:</h2>
+<input type="email" name="useremail">
+<h2>Please Input Your Password:</h2>
+<input type="password" name="password">
+<input type="submit">
+
+<h1>Choose your Favorite Day Of The Week</h1>
+<h2>Type In Your Favorite Day Of The Week Here:</h2>
+<input type="day" >
+<h2>Why?</h2>
+<input type="text" name="">
+
+<!--Part 8-->
+<h2>Part 8</h2>
+
+<h1>Check For Identity</h1> 
+<label for="email">What is your email address?</label>
+<input type="email" id="email" name="useremail">
+<label for="userinput">What is your Full Name?</label>
+<input type="text" id="userinput" name="input" placeholder="Enter Full Name" required>
+<label for="password">Password</label>
+<input type="password" id="pass" name="password" placeholder="Password">
+<label for="userinput">When did you sign in here?</label>
+<input type="date"
+<label for = "submit"> Press Sumbit</label>
+<input type="submit" >
+
+<!--Part 9-->
+<h2>Part 9</h2>
+
+<h1>SAT Refund Form</h1>
+
+<h3>Do you want to recieve a refund of the amount you payed?</h3>
+
+<label for="yes">Yes</label>
+          <input type="radio" id="yes" name="refund-choice" value="yes">
+
+          <label for="no">No:</label>
+          <input type="radio" id="no" name= "refund_choice" value="no">
+
+          <p>How much did you pay for the SAT?</p>
+          <select name="payment">
+            <option value="=$200">$200</option>
+            <option value="=$100">$100</option>
+            <option value="=$50">$50</option>
+          </select>
+
+          <p>Any other comments?</p>
+
+          <textarea name="name" rows="8" cols="80"></textarea>
+
+
+          <input type="submit" name="" value="Submit Refund Request">
+
+          <!--Part 10-->
+          <h2>Part 10</h2>
+
+          <h1>SAT Refund Form</h1>
+
+          <h2>Check For Identity</h2> 
+<label for="email">What is your email address?</label>
+<input type="email" id="email" name="useremail">
+<label for="userinput">What is your Full Name?</label>
+<input type="text" id="userinput" name="input" placeholder="Enter Full Name" required>
+<label for="password">Password</label>
+<input type="password" id="pass" name="password" placeholder="Password">
+<label for="userinput">When did you sign in here?</label>
+<input type="date"
+
+<p><h2>Refund Request</h2></p>
+
+<h3>Do you want to recieve a refund of the amount you payed?</h3>
+
+<label for="yes">Yes</label>
+          <input type="radio" id="yes" name="refund-choice" value="yes">
+
+          <label for="no">No:</label>
+          <input type="radio" id="no" name= "refund_choice" value="no">
+
+          <p>How much did you pay for the SAT?</p>
+          <select name="payment">
+            <option value="=$200">$200</option>
+            <option value="=$100">$100</option>
+            <option value="=$50">$50</option>
+          </select>
+
+          <p>Any other comments?</p>
+
+          <textarea name="name" rows="8" cols="80"></textarea>
+
+
+          <input type="submit" name="" value="Submit Refund Request">
