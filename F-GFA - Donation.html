@@ -7,7 +7,7 @@ page that contains all the code you need for a new page.-->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href = "L.CSS">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <title>OT CS Capstone</title>
 </head>
@@ -30,8 +30,8 @@ page that contains all the code you need for a new page.-->
                       Other Pages 
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="F-GFA - Information & Survey .html">Info & Survey</a></li>
                       <li><a class="dropdown-item" href="F-GFA - About Me.html">About Me</a></li>
-                      <li><a class="dropdown-item" href="F-GFA - Donation.html">Donate For Change</a></li>
                   </ul>
                   </li>
               </ul>
@@ -39,19 +39,43 @@ page that contains all the code you need for a new page.-->
       </div>
       </nav>
   </div>
-
-  <h1>Information</h1>
-
-  <h5>The financial struggle is a huge thing when it comes down to first-generation farmers. Farmers are successful because they usually inherit their farm from past family members making it easier for them financially while first-generation farmers have to start from scratch. For example, a farm comes with its acres and acres are expensive. A person who inherits their family's farm doesn't have to worry about buying land because they already have it while first-generation farmers have to buy their own. You may ask, "Well, what is the trouble?". Each acre in California costs around 39,092 dollars and according to primalsurvior.net, you will need at least 5-10 acres of land to be self-sufficient. So 39,092 times, let's say, 5. That first generation farmer would have to pay $195460 for 5 acres of land in order to farm and unless you are rich enough to pay that without worrying about how you are going to pay other expenses, then that is not a good idea. The reason that is not good idea is because you have to then pay annual expense for crops too which is a lot of money (Lettuce = $50,000 of annual expense). So unless you are planning to save money on the side with an annual income from a minimum wage job to buy your own acres of land and crops which might take a couple years, then I suggest to, sadly, not become a first-generation farmer. That is the difficulties of a first-generation farmer starting from scratch and that is why we should somehow come up with ways to make it easier for first-generation farmers to pay their expenses. There should be programs and financial aid to support them in their difficult journey ahead.</h5>
-
-  
   <!--Whole page container div-->
+  <h1>Donate For Change</h1>
   <div class="container">
-    <a href="F-GFA - Survey.html">
-    <button type="button" class="btn btn-outline-primary">
-      Survey
-    </button>
-    </a>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+
+      <div class="mb-3 form-check">
+        <label for="userinput">What is your first name?</label>
+        <input type="text" id="userinput" name="input" placeholder="Enter First Name Name" required>
+      </div>
+      <div class = "mb-3 form-check">
+        <label for="userinput">What is your last name?</label>
+<input type="text" id="userinput" name="input" placeholder="Enter Last Name" required>
+      </div>
+      <div class = "mb-3 form check">
+        <label for="select">Amount</label>
+<select name="payment">
+  <option value="=$200">$200</option>
+  <option value="=$100">$100</option>
+  <option value="=$50">$50</option>
+</select>
+</form>
+      </div>
+
+      <a href="F-GFA - Thank You (Donate).html">
+        <button type="submit" class="btn btn-primary">
+        Submit
+     </button>
+     </a>
+
+    </form>
+
+
   </div>
   <!--Bootstrap and other JS scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
