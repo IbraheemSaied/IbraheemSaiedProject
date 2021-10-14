@@ -11,3 +11,11 @@ button{
 textarea{
     resize: horizontal:inherit;
 }
+
+p {
+    line-height: 2 ;
+  }
+
+h3{
+    text-underline-position: below;
+}
